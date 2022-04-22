@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  text-align: right;
+  padding: 20px 10px 0 0;
+  align-items: center;
+  margin-right: 50px;
+}
+
+nav > a {
+  color: rgb(43, 40, 40);
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+nav > a:hover {
+  border-bottom: 1px solid;
+  transition: 0.6s;
+}
+
+nav > i {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.imagen-perfil {
+  border-radius: 100%;
+  position: absolute;
+  left: 96%;
+  bottom: 94%;
+  cursor: pointer;
+}
+
+.contenedor-logo {
+  height: 200px;
+  text-align: center;
+}
+
+.contenedor-logo img {
+  height: 200px;
+}
+
+.contenedor-buscador {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.contenedor-buscador input {
+  width: 582px;
+  height: 44px;
+  padding: 5px 8px 0px 50px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+  outline: none;
+  border: 1px solid rgba(192, 192, 192, 0.795);
+  border-radius: 30px;
+  background: #fff url("/Imagenes/ico-search.png") no-repeat 20px;
+}
+
+.btn-microfono {
+  position: absolute;
+  top: 254px;
+  right: 490px;
+  width: 24px;
+  height: 24px;
+}
+
+.contenedor-botones {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.contenedor-botones button {
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0px 16px;
+  margin: 11px 14px;
+  height: 36px;
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.contenedor-textos {
+  display: flex;
+  justify-content: center;
+  color: #3c4043;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.contenedor-textos p {
+  margin-right: 5px;
+}
+
+.contenedor-textos a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #70757a;
+  background-color: #f8f9fa;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.separador {
+  border: none;
+  height: 1px;
+  background: #dddddd;
+}
+
+.footer-parte1 {
+  height: 48.6px;
+}
+.footer-parte1 p {
+  padding: 15px 30px;
+}
+
+.footer-parte2 {
+  height: 48px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-parte2 a {
+  text-decoration: none;
+  margin-left: 20px;
+  position: relative;
+  top: 28%;
+  color: #70757a;
+}
+
+.footer-parte2 a:hover {
+  border-bottom: 1px solid;
+  transition: 0.6s;
+}
+
+.footer-parte2-b {
+  margin-left: 640px;
+}
